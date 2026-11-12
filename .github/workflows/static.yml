@@ -24,6 +24,7 @@ concurrency:
 env:
   VITE_SUPABASE_URL: ${{ vars.VITE_SUPABASE_URL || 'https://ndmmmxxxlseouxkduedh.supabase.co' }}
   VITE_SUPABASE_PUBLISHABLE_KEY: ${{ vars.VITE_SUPABASE_PUBLISHABLE_KEY || 'sb_publishable_5XsfkcrVyrpXK95IC6wa1g_EwGBttGl' }}
+  VITE_AUTH_REDIRECT_URL: ${{ vars.VITE_AUTH_REDIRECT_URL || 'https://jakelethard-star.github.io/KairoSphere122-0605e52e/' }}
 
 jobs:
   build:
